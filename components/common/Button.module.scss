@@ -1,0 +1,28 @@
+.primary {
+  @apply text-white;
+
+  background: linear-gradient(90deg, #2563eb 0%, #1c4aac 50%, #2563eb 100%),
+    linear-gradient(0deg, #f4f4f4, #f4f4f4);
+  background-size: 200% 100%;
+
+  &:hover {
+    background-position: 100% 0;
+    @apply text-white;
+  }
+}
+
+.outline {
+  @apply border-gray-900 border-2;
+
+  &:hover {
+    @apply bg-gray-900 text-white opacity-90;
+  }
+}
+
+.white {
+  @apply bg-white text-gray-900;
+
+  &:hover {
+    @apply opacity-90;
+  }
+}
