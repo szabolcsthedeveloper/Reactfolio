@@ -14,49 +14,6 @@ I embarked on my coding adventure right as the pandemic began, finding a passion
 
 From mastering the intricacies of **React** to delving into the world of web3, my journey has been anything but ordinary. My portfolio showcases the projects I'm most proud of, the challenges I've overcome, and the skills I've acquired along the way.
 
-# Project Structure
-
-portfolio/
-│
-
-├── .next/
-
-│
-├── components/
-│ ├── common/
-│ │ └── commonComponents/
-│ ├── home/
-│ │ └── homeComponents/
-│
-├── node_modules/
-│
-├── pages/
-│ ├── \_app.tsx
-│ └── index.tsx
-│
-├── public/
-│ ├── fonts/
-│ ├── projects/
-│ ├── skills/
-│ ├── social/
-│ ├── timeline/
-│ └── logosResumeEtc/
-│
-├── styles/
-│ └── global.scss
-│
-├── .eslintrc.json
-├── .gitignore
-├── constants.ts
-├── next-env.d.ts
-├── next-config.js
-├── package-lock.json
-├── package.json
-├── postcss-config.js
-├── README.md
-├── tailwind.config.js
-├── tsconfig.json
-└── yarn.lock
 
 ## Installation
 
