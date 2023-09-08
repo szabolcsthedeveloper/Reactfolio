@@ -28,7 +28,7 @@ For those interested in diving into the code of this portfolio or even setting u
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/folio.git
+   git clone https://github.com/szabolcsthedeveloper/Reactfolio.git
    ```
 
 2. **Navigate to the directory:**
