@@ -1,7 +1,6 @@
 # Szabolcs Nagy | Portfolio
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![image](https://github.com/szabolcsthedeveloper/Reactfolio/assets/109295080/905c0571-2eb8-473c-9b26-ede95e29a2a9)
 👉
 **[LIVE DEMO](https://szabolcsnagy.com)**
 👈
