@@ -441,6 +441,11 @@ const TimelineSection = ({ isDesktop }: IDesktop) => {
     // Animation for Timeline SVG
     animateTimeline(timeline, duration);
   }, [
+    // Include the function names themselves as dependencies
+    animateTimeline,
+    initScrollTrigger,
+    setTimelineSvg,
+    // Other dependencies
     timelineSvg,
     svgContainer,
     svgWidth,

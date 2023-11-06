@@ -55,7 +55,7 @@ export interface IProject {
 
 export const PROJECTS: IProject[] = [
   {
-    name: "Zylar | Technical Project Lead",
+    name: "Zylar | Web3 Creative Agency",
     image: "/projects/zylar.png",
     blurImage: "/projects/blur/zylar.png",
     description: "Visually stunning websites injected with web3 functionality.",
@@ -64,7 +64,7 @@ export const PROJECTS: IProject[] = [
     tech: ["react", "next", "typescript", "tailwind", "aws"],
   },
   {
-    name: "Darknight Labs | Web & Mint Division",
+    name: "Darknight Labs | Web3 Digital Agency",
     image: "/projects/darknight.png",
     blurImage: "/projects/blur/zylar.png",
     description: "Dominant Web3 Marketing Agency.",
@@ -73,7 +73,7 @@ export const PROJECTS: IProject[] = [
     tech: ["react", "python", "bootstrap", "d3", "figma"],
   },
   {
-    name: "RYFT | Technical Project Lead",
+    name: "RYFT | Web3 SaaS",
     image: "/projects/ryft.png",
     blurImage: "/projects/blur/ryft.png",
     description: "Your go-to web3 project tracker app.",
@@ -82,43 +82,44 @@ export const PROJECTS: IProject[] = [
     tech: ["react", "redux", "javascript", "python", "postgresql"],
   },
   {
-    name: "Chess Game | AI",
-    image: "/projects/chess.jpg",
+    name: "React Chess Game",
+    image: "/projects/chessgame.png",
     blurImage: "/projects/blur/chess.jpg",
-    description: "Your go-to web3 project tracker app.",
-    gradient: ["#392B24", "#D5B782"],
-    url: "https://github.com/szabolcsthedeveloper.com",
-    tech: ["react", "redux", "javascript", "python", "postgresql"],
+    description: "React + TypesScript Chess Game",
+    gradient: ["#759355", "#EDEDD2"],
+    url: "https://chess-game-react.netlify.app/",
+    tech: ["react", "typescript", "javascript", "css", "git"],
   },
   {
-    name: "Personal Dev Blog",
-    image: "/projects/blog.png",
+    name: "React Developer Roadmap",
+    image: "/projects/reactacademy.png",
     blurImage: "/projects/blur/blog.png",
-    description: "Visually stunning websites injected with web3 functionality.",
-    gradient: ["#596ADA", "#F1F2F3"],
-    url: "https://github.com/szabolcsthedeveloper.com/",
+    description:
+      "Interactive React Developer Roadmap to guide novices in programming ",
+    gradient: ["#173486", "#1D283A"],
+    url: "https://react.academy/",
     tech: ["react", "next", "typescript", "tailwind", "aws"],
   },
   {
     name: "E-commerce Website",
-    image: "/projects/ecom.png",
+    image: "/projects/yuskin.png",
     blurImage: "/projects/blur/ecom.png",
-    description: "Dominant Web3 Marketing Agency.",
-    gradient: ["#A66837", "#A2ACAB"],
-    url: "https://github.com/szabolcsthedeveloper.com",
-    tech: ["react", "python", "bootstrap", "d3", "figma"],
+    description: "A real world successful ecommerce brand's store + backend.",
+    gradient: ["#DEB1AF", "#2E2A39"],
+    url: "https://www.yuskinbeauty.com/",
+    tech: ["shopify", "javascript", "html", "css", "canva"],
   },
 ];
 
 export const SKILLS = {
   programmingLanguages: ["javascript", "typescript", "python"],
   frontend: ["react", "next", "redux"],
-  backend: ["node", "express", "postman"],
+  backend: ["node", "express", "postman", "shopify"],
   markup: ["html", "css", "sass", "tailwind", "bootstrap"],
   dVDB: ["d3", "postgresql", "mongo", "mongoose"],
   cloud: ["aws", "docker", "kubernetes"],
   web3: ["solidity", "rust", "web3js"],
-  other: ["git", "webpack", "figma", "photoshop"],
+  other: ["git", "webpack", "canva", "figma", "photoshop"],
 };
 
 export enum Branch {
@@ -150,7 +151,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     title: "Lead Technical Project Manager",
     size: ItemSize.SMALL,
     subtitle:
-      "Frontend Engineering @ core team, in charge of the web development and mint tracker divisions. 🧪",
+      "Fullstack Engineering @ core team, in charge of the web development and mint tracker divisions. 🧪",
     image: "/timeline/dn-logo.png",
     slideImage: "/timeline/dn.png",
     shouldDrawLine: true,
@@ -181,7 +182,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Technical Project Lead",
+    title: "Fullstack Developer",
     size: ItemSize.SMALL,
     subtitle: "Visually stunning websites injected with web3 functionality. 🎯",
     image: "/timeline/zylar-logo.png",
@@ -191,7 +192,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Technical Project Lead",
+    title: "Fullstack Developer",
     size: ItemSize.SMALL,
     subtitle:
       "Web3 Trading Tool (upcoming project & portfolio tracking and much more) 📲",

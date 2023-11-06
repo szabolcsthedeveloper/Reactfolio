@@ -126,7 +126,7 @@ const ProjectsSection = ({ isDesktop }: IDesktop) => {
       <h2 className="text-2xl md:max-w-3xl w-full seq max-w-sm mt-2">
         I have contributed in over 20+ projects ranging from
         <br />
-        Frontend development, UI/UX design, and Web3 Development.
+        Front/Backend, UI/UX design, and Web3 Development.
       </h2>
     </div>
   );

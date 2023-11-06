@@ -63,15 +63,16 @@ const AboutSection = () => {
           willChange ? "will-change-opacity" : ""
         }`}
       >
-        Channeling my creativity through React`s dynamic canvas.{" "}
+        Channeling my creativity through React`s dynamic canvas. Continuously
+        seeking opportunities for{" "}
       </span>
       <span
         className={`about-2 leading-tight ${
           willChange ? "will-change-opacity" : ""
         }`}
       >
-        Continuously seeking opportunities for growth and expanding skillset,
-        with a particular passion for web3 and blockchain technology.
+        growth and expanding skillset, with a particular passion for web3 and
+        blockchain technology.
       </span>
     </h1>
   );
