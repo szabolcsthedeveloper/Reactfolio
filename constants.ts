@@ -107,7 +107,7 @@ export const PROJECTS: IProject[] = [
     description: "A real world successful ecommerce brand's store + backend.",
     gradient: ["#DEB1AF", "#2E2A39"],
     url: "https://www.yuskinbeauty.com/",
-    tech: ["shopify", "javascript", "html", "css", "canva"],
+    tech: [, "javascript", "html", "css", "figma"],
   },
 ];
 
