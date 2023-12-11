@@ -44,8 +44,9 @@ const QuoteSection = () => {
           willChange ? "will-change-opacity" : ""
         }`}
       >
-        web2 is my <span className="text-strong font-bold">workhorse</span>,
-        web3 is my <span className="text-strong font-bold">entertainment</span>.
+        Turning <span className="text-strong font-bold">tech support</span>
+        into art
+        <span className="text-strong font-bold">, one solution at a time</span>.
       </h1>
     </div>
   );

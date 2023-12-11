@@ -29,10 +29,10 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "I develop modern frontend apps.",
-  "I design dynamic user experiences.",
-  "I develop blockchain powereded apps.",
-  "I create stunning visual experiences.",
+  "I resolve customer tech issues with speed and precision.",
+  "I ensure seamless tech experiences for clients.",
+  "I deliver expert guidance for user tech challenges.",
+  "I provide swift, reliable solutions to support inquiries.",
 ];
 
 export const EMAIL = "mailto:work.szabolcs@proton.me";
@@ -148,22 +148,11 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Lead Technical Project Manager",
+    title: "Senior Technical Support Analyst",
     size: ItemSize.SMALL,
-    subtitle:
-      "Fullstack Engineering @ core team, in charge of the web development and mint tracker divisions. 🧪",
-    image: "/timeline/dn-logo.png",
-    slideImage: "/timeline/dn.png",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Acquisition",
-    size: ItemSize.SMALL,
-    subtitle: "RYFT's & Zylar's acquisition by Darknight Labs. 🤝",
-    image: "/timeline/dn-logo.png",
-    slideImage: "/timeline/acq.jpg",
+    subtitle: "Visually stunning websites injected with web3 functionality. 🎯",
+    image: "/timeline/zylar-logo.png",
+    slideImage: "/timeline/zylar.png",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -171,45 +160,15 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     type: NodeTypes.CHECKPOINT,
     title: "2023",
     size: ItemSize.LARGE,
-    subtitle: "",
-    image: "",
-    slideImage: "/timeline/acq.jpg",
-    shouldDrawLine: true,
+    shouldDrawLine: false,
     alignment: Branch.LEFT,
   },
-  {
-    type: NodeTypes.DIVERGE,
-  },
+
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Fullstack Developer",
+    title: "Technical Support Analyst",
     size: ItemSize.SMALL,
-    subtitle: "Visually stunning websites injected with web3 functionality. 🎯",
-    image: "/timeline/zylar-logo.png",
-    slideImage: "/timeline/zylar.png",
-    shouldDrawLine: true,
-    alignment: Branch.RIGHT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Fullstack Developer",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Web3 Trading Tool (upcoming project & portfolio tracking and much more) 📲",
-    image: "/timeline/ryft-logo.png",
-    slideImage: "/timeline/mockup.png",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CONVERGE,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Techincal Project Manager",
-    size: ItemSize.SMALL,
-    subtitle:
-      "First job! 🥳 Product design and development for a leading web3 marketing agency",
+    subtitle: "Largest web3 marketing agency",
     image: "/timeline/dn-logo.png",
     slideImage: "/timeline/dn.png",
     shouldDrawLine: true,
@@ -219,44 +178,40 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     type: NodeTypes.CHECKPOINT,
     title: "2022",
     size: ItemSize.LARGE,
-    subtitle: "",
-    image: "",
-    slideImage: "/timeline/nefturians.png",
-    shouldDrawLine: true,
+    shouldDrawLine: false,
     alignment: Branch.LEFT,
   },
   {
-    type: NodeTypes.DIVERGE,
-  },
-
-  {
     type: NodeTypes.CHECKPOINT,
-    title: "UI/UX Developer (freelance)",
+    title: "Technical Support Specialist",
     size: ItemSize.SMALL,
-    subtitle:
-      "Led the design for over 15 Web3 projects and assisted with their web development. 🖼️",
-    slideImage: "/timeline/whale-together.png",
+    subtitle: "Worldwide beauty brand with over 52,500+ happy customers. 🖼️",
+    slideImage: "/timeline/yuskin.jpg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
-
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Web Designer (freelance)",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Designed and created +10 fully functional websites for local clients in the area. 🎨",
-    slideImage: "/timeline/momentum.png",
-    shouldDrawLine: true,
-    alignment: Branch.RIGHT,
-  },
-  {
-    type: NodeTypes.CONVERGE,
-  },
-
   {
     type: NodeTypes.CHECKPOINT,
     title: "2021",
+    size: ItemSize.LARGE,
+    shouldDrawLine: false,
+    alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "Customer Support Representative",
+    size: ItemSize.SMALL,
+    subtitle:
+      "Web3 Trading Tool (upcoming project & portfolio tracking and much more) 📲",
+    image: "/timeline/ryft-logo.png",
+    slideImage: "/timeline/mockup.png",
+    shouldDrawLine: true,
+    alignment: Branch.LEFT,
+  },
+
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "2020",
     size: ItemSize.LARGE,
     subtitle: "Journey begins. 🚀",
     image: "",
