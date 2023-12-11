@@ -29,10 +29,10 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "I resolve customer tech issues with speed and precision.",
-  "I ensure seamless tech experiences for clients.",
-  "I deliver expert guidance for user tech challenges.",
-  "I provide swift, reliable solutions to support inquiries.",
+  "Quickly resolving tech issues.",
+  "Ensuring seamless tech experiences.",
+  "Guiding through tech challenges.",
+  "Swift, reliable support solutions.",
 ];
 
 export const EMAIL = "mailto:work.szabolcs@proton.me";
